@@ -34,7 +34,7 @@ const App = () => {
       if (itemArray[winSituations[i][0]] !== "empty" &&
         itemArray[winSituations[i][0]] === itemArray[winSituations[i][1]] &&
         itemArray[winSituations[i][0]] === itemArray[winSituations[i][2]]) {
-        setWinMessage(`${itemArray[winSituations[i][0]]} wins!`);
+        setWinMessage(`${itemArray[winSituations[i][0]]} wins! britto`);
       }
     }
   }
